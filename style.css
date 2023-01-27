@@ -158,3 +158,5 @@ body{
     padding-top: 45px;
 
 }
+
+@media(max-width: 600px) and(min-width: 60px){}

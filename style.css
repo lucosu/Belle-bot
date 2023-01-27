@@ -159,4 +159,8 @@ body{
 
 }
 
-@media(max-width: 600px) and(min-width: 60px){}
+@media(max-width: 570px){
+    .header-image{
+        display: transparent;
+    }
+}

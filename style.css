@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/*reset css para marcar todos elementos html*/
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+        background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.header-image{
+    height: 72px;
+
+}
+
+.navegation-bar{
+    display: flex;
+    gap: 32px;
+}
+
+.navegation-option{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.content{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.first-group{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 64px;
+    color:  #FFF2E7;
+
+}
+
+.secundary-title{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+
+}
+
+
+.principal-button{
+    background-color:#ECD6C4;
+    width: 185px;
+    height: 60px;
+
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#2F2325;
+
+}
+
+.principal-button:hover {
+   background-color: rgba(236, 214, 196, 0.53);
+}
+
+.navegation-option:hover {
+    background-color:#afa49b;
+}
+
+.belle-image{
+    height: 460px;
+
+}
+
+.secundary-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.third-title{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    
+    width: 270px;
+    align-self: center;
+
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 24px;
+    color:  #FFF2E7;
+
+}
+
+.paragraph{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300px;
+    font-size: 18px;
+    color: #FFF2E7;
+
+}
+
+.principal-footer{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+
+}
+
+.footer-image{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.citacao{
+    font-family: 'Righteous', cursive;
+    font-size: 12px;
+    color:  #FFF2E7;
+
+    text-align: center;
+    padding-top: 45px;
+
+}
